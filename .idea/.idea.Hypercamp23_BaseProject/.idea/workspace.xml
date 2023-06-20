@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Developer/Github/2DPlatformer_Intermediate/Unity Project_2D_Platformer/Assets/Scripts_2D_Platformer/Player/Input.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -62,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687247343229</updated>
-      <workItem from="1687247346497" duration="315000" />
+      <workItem from="1687247346497" duration="594000" />
     </task>
     <servers />
   </component>
