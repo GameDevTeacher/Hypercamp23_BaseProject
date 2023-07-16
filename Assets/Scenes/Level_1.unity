@@ -572,17 +572,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &983719496 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3897476197444516782, guid: 9b8ebf69e9aba4127ba69fbd4eee5f0e, type: 3}
-  m_PrefabInstance: {fileID: 3519751301767058861}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e78d3fa2d2814065831980e28eda4aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1145259680 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4060243225638199014, guid: 4e46b6a5288714342a7e245f1bd4f673, type: 3}
@@ -1806,7 +1795,7 @@ PrefabInstance:
     - target: {fileID: 2096744761789473394, guid: 4e46b6a5288714342a7e245f1bd4f673, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 983719496}
+      objectReference: {fileID: 0}
     - target: {fileID: 2096744761789473394, guid: 4e46b6a5288714342a7e245f1bd4f673, type: 3}
       propertyPath: heartSprite
       value: 

@@ -41,7 +41,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4059227432921895369}
   - component: {fileID: 790438063609958757}
-  - component: {fileID: 8272895360438488828}
   - component: {fileID: 4206512898472476497}
   - component: {fileID: 7805439967240578625}
   - component: {fileID: 3038982316118971944}
@@ -67,7 +66,7 @@ Transform:
   m_Children:
   - {fileID: 2532351728097718589}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &790438063609958757
 SpriteRenderer:
@@ -121,24 +120,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8272895360438488828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7484541376106700780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71d55b1c5b37f40c5b141fa16010e14a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 1
-  ForwardPoint: {fileID: 424415066863787068}
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 8
-  flip: 0
 --- !u!95 &4206512898472476497
 Animator:
   serializedVersion: 7
