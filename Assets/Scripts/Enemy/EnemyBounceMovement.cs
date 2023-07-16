@@ -37,8 +37,7 @@ public class EnemyBounceMovement : MonoBehaviour
                || (Physics2D.Raycast(transform.position, Vector2.right , 0.6f, whatIsGround) 
                    ||Physics2D.Raycast(transform.position, Vector2.left , 0.6f, whatIsGround)
                );*/
-        return !RayCaster(ForwardPoint.transform.position, Vector2.down) 
-               || (RayCaster(Vector2.right) || RayCaster(Vector2.left));
+        return !RayCaster(ForwardPoint.transform.position, Vector2.down) || RayCaster(Vector2.right*transform.localScale);
     }
 
     private bool RayCaster(Vector3 position, Vector2 direction)
