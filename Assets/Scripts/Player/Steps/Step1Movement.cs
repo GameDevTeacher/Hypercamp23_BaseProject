@@ -19,19 +19,19 @@ namespace Steps
         {
             if (Keyboard.current.aKey.isPressed)
             {
-              transform.Translate(Vector2.left * speed * Time.deltaTime);
+              transform.Translate(Vector2.left * (speed * Time.deltaTime));
             }
             else if (Keyboard.current.dKey.isPressed)
             {
-                transform.Translate(Vector2.right * speed * Time.deltaTime);
+                transform.Translate(Vector2.right * (speed * Time.deltaTime));
             }
             else if (Keyboard.current.wKey.isPressed)
             {
-                transform.Translate(Vector2.up * speed * Time.deltaTime);
+                transform.Translate(Vector2.up * (speed * Time.deltaTime));
             }
             else if (Keyboard.current.sKey.isPressed)
             {
-                transform.Translate(Vector2.down * speed * Time.deltaTime);
+                transform.Translate(Vector2.down * (speed * Time.deltaTime));
             }
         }
     }

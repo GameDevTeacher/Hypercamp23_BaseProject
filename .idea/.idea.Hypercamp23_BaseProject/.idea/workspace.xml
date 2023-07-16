@@ -12,7 +12,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Developer/Github/2DPlatformer_Intermediate/Unity Project_2D_Platformer/Assets/Scripts_2D_Platformer/Player/Input.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Developer/Github/2D_Platformer/Assets/Scripts/AdvancedPlus/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Developer/Github/2D_Platformer/Assets/Scripts/_BeginnerPlus/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Developer/Github/2D_Platformer/Assets/Scripts/_IntermediatePlus/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Steps/Step4Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Steps/Step5Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Steps/Step6Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Steps/Step7Movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/2D_Platformer_Tavle/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -102,6 +109,17 @@
       <workItem from="1687683828838" duration="3200000" />
       <workItem from="1687812802416" duration="830000" />
       <workItem from="1688458375183" duration="2063000" />
+      <workItem from="1688541890166" duration="32000" />
+      <workItem from="1688541933300" duration="5485000" />
+      <workItem from="1688647254852" duration="2106000" />
+      <workItem from="1689094033967" duration="5174000" />
+      <workItem from="1689145719904" duration="3793000" />
+      <workItem from="1689149563414" duration="34000" />
+      <workItem from="1689188705417" duration="1518000" />
+      <workItem from="1689239426319" duration="983000" />
+      <workItem from="1689273546341" duration="3540000" />
+      <workItem from="1689279167319" duration="1168000" />
+      <workItem from="1689321144975" duration="2004000" />
     </task>
     <servers />
   </component>

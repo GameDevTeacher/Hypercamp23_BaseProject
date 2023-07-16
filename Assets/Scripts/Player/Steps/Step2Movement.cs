@@ -7,9 +7,7 @@ namespace Steps
     {
         public float speed = 3f;
 
-        public Vector2 MoveVector;
-        public bool isJumping;
-        
+        public Vector2 moveVector;
         private Rigidbody2D _rigidbody2D;
 
         private void Start()
@@ -27,18 +25,17 @@ namespace Steps
         
         private void FixedUpdate()
         {
-            if (MoveVector.magnitude > 1)
+            if (moveVector.magnitude > 1)
             {
-                MoveVector = MoveVector.normalized;
+                moveVector = moveVector.normalized;
             }
-            _rigidbody2D.velocity = MoveVector * speed;
+            _rigidbody2D.velocity = moveVector * speed;
         }
 
         private void GetInput()
         {
-            MoveVector.x = (Keyboard.current.dKey.isPressed ? 1 : 0) + (Keyboard.current.aKey.isPressed ? -1 : 0);
-            MoveVector.y = (Keyboard.current.wKey.isPressed ? 1 : 0) + (Keyboard.current.sKey.isPressed ? -1 : 0);
-            isJumping = Keyboard.current.spaceKey.wasPressedThisFrame;
+            moveVector.x = (Keyboard.current.dKey.isPressed ? 1 : 0) + (Keyboard.current.aKey.isPressed ? -1 : 0);
+            moveVector.y = (Keyboard.current.wKey.isPressed ? 1 : 0) + (Keyboard.current.sKey.isPressed ? -1 : 0);
         }
     }
 }

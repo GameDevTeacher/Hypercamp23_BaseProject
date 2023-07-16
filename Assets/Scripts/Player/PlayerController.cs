@@ -62,7 +62,17 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                _animator.PlayAnimation("Walk");
+
+                if (_input.Move.x > 0)
+                {
+                    _animator.PlayAnimation("Walk_Right");
+                }
+                else
+                {
+                    _animator.PlayAnimation("Walk_Left");
+                }
+                
+                
             }
         }
         else
@@ -77,4 +87,20 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    private void ApplyAnimationsAdvanced()
+    {
+        if (_input.Move.x != 0) _renderer.flipX = _input.Move.x < 0;
+
+        _animator.PlayAnimation(isGrounded ? _input.Move.x == 0 ? "Idle" 
+            : _input.Move.x > 0 ? "Walk_Right" : "Walk_Left" 
+            : _input.Move.y > 0 ? "Jump" : "Fall");
+        
+        //_animator.PlayAnimation(_input.Move.y > 0 ? "Jump" : "Fall");
+        //_animator.PlayAnimation(_input.Move.x == 0 ? "Idle" : _input.Move.x > 0 ? "Walk_Right" : "Walk_Left");
+
+        //_animator.PlayAnimation(_input.Move.x > 0 ? "Walk_Right" : "Walk_Left");
+    }
 }
+
+
