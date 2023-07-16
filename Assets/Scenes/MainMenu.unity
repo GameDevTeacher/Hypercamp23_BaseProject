@@ -212,6 +212,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3088026638000425281, guid: 4d40f395d66014be8adcc74f2cc57376, type: 3}
+      propertyPath: timeToQuit
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3745789206641261361, guid: 4d40f395d66014be8adcc74f2cc57376, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 971539358}
     - target: {fileID: 7578403930764868801, guid: 4d40f395d66014be8adcc74f2cc57376, type: 3}
       propertyPath: m_Name
       value: UserInterfaceCanvas

@@ -440,6 +440,7 @@ GameObject:
   - component: {fileID: 2669753863491903854}
   - component: {fileID: 3745789206641261361}
   - component: {fileID: 4046744669846040991}
+  - component: {fileID: 3088026638000425281}
   - component: {fileID: 1953158338879522456}
   m_Layer: 5
   m_Name: UserInterfaceCanvas
@@ -464,7 +465,7 @@ RectTransform:
   - {fileID: 7030891323803495846}
   - {fileID: 5519129562084594695}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -517,6 +518,18 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
+--- !u!114 &3088026638000425281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7578403930764868801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5b6e21632dd47c48f20221152e2fbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1953158338879522456
 MonoBehaviour:
   m_ObjectHideFlags: 0
