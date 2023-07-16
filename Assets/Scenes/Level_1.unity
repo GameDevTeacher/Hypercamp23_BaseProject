@@ -1430,7 +1430,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 6e204cbad1cbe4d239ab1ea3fe78022e, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1564,14 +1564,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6669021618500957971, guid: 812121af362b64a8db1d16500451ec50, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8702984461455473851, guid: 812121af362b64a8db1d16500451ec50, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8702984461455473851, guid: 812121af362b64a8db1d16500451ec50, type: 3}
-      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1737,6 +1729,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3897476197444516782, guid: 9b8ebf69e9aba4127ba69fbd4eee5f0e, type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7172607997890298583, guid: 9b8ebf69e9aba4127ba69fbd4eee5f0e, type: 3}
       propertyPath: m_Name
       value: Player
