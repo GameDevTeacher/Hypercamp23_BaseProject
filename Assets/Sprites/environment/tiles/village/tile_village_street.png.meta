@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_village_street_0: -5095354501470608676
+      tile_village_street_1: -8947483136721212607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

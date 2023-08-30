@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obj_chest_unlock_anim_0: 2693754200302220864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

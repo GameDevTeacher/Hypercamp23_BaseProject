@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_jungle_bottom_brown_0: -6556045376301587391
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

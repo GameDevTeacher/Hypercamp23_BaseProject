@@ -224,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_jungle_tree_dark_0: 5455277783765439982
+      tile_jungle_tree_dark_1: 2845536182314405224
+      tile_jungle_tree_dark_2: 333796648981163436
+      tile_jungle_tree_dark_3: -8604929986728680858
+      tile_jungle_tree_dark_4: 2967876554967713339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

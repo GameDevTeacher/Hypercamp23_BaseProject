@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_jungle_wall_grey_0: 6027123883138039882
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

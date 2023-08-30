@@ -368,7 +368,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_castle_0: -4765613744073005045
+      tile_castle_1: 4689967215423725451
+      tile_castle_10: 3924880329569755566
+      tile_castle_2: 5126426717027310239
+      tile_castle_3: -3277702126428105466
+      tile_castle_4: 7591560109189719191
+      tile_castle_5: 8594328891846877686
+      tile_castle_6: -7809433222435934873
+      tile_castle_7: -3779674592053026845
+      tile_castle_8: -8841471237949843811
+      tile_castle_9: -6032483770244000742
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_village_fountain_0: -5551095283589237172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

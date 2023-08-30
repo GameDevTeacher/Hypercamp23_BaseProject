@@ -176,7 +176,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_jungle_ground_grey_0: -8196508246302656365
+      tile_jungle_ground_grey_1: -8622265007732646601
+      tile_jungle_ground_grey_2: -8759535625841211946
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

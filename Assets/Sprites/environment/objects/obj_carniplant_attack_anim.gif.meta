@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obj_carniplant_attack_anim_0: -4167675570194360370
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

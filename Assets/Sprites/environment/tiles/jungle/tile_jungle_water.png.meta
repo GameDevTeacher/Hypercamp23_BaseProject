@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_jungle_water_0: 4281536844558359172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

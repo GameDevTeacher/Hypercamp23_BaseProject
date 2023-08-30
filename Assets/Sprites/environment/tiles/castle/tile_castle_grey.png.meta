@@ -368,7 +368,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_castle_grey_0: -8903322092232475445
+      tile_castle_grey_1: -541850578466447011
+      tile_castle_grey_10: -7346127816872329950
+      tile_castle_grey_2: 2899849186746023051
+      tile_castle_grey_3: -1357977006987801064
+      tile_castle_grey_4: 9192295059976617953
+      tile_castle_grey_5: 7759168726481373789
+      tile_castle_grey_6: 1991917043324496550
+      tile_castle_grey_7: -1183520109536678179
+      tile_castle_grey_8: 3101607037382348164
+      tile_castle_grey_9: 8644823098683266141
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

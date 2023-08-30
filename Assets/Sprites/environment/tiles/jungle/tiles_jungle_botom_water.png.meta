@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tiles_jungle_botom_water_0: 5758614270955344798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

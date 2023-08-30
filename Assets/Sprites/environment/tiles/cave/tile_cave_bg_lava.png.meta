@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tile_cave_bg_lava_0: 1021520016388421980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

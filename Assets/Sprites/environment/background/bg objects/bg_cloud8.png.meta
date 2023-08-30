@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bg_cloud8_0: 5718152220247104754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

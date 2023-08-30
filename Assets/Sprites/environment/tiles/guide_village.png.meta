@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      guide_village_0: 6846093753292810350
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

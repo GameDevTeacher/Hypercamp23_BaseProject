@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      obj_igloo_0: 5253844135865069424
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
