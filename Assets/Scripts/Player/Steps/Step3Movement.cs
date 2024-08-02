@@ -31,14 +31,14 @@ namespace Steps
             // Jump
             if (_input.Jump)
             {
-                _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpSpeed);
+                _rigidbody2D.linearVelocity = new Vector2(_rigidbody2D.linearVelocity.x, jumpSpeed);
             }
         }
 
         private void FixedUpdate()
         {
             // Movement
-            _rigidbody2D.velocity = new Vector2(_input.Move .x * moveSpeed, _rigidbody2D.velocity.y);
+            _rigidbody2D.linearVelocity = new Vector2(_input.Move .x * moveSpeed, _rigidbody2D.linearVelocity.y);
         }
     }
 }

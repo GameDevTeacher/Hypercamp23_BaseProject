@@ -41,8 +41,8 @@ public class PlayerController : MonoBehaviour
         
         
         // Movement
-        newVelocity = new Vector2(_input.Move.x * Speed, _rigidbody2D.velocity.y);
-        _rigidbody2D.velocity = newVelocity;
+        newVelocity = new Vector2(_input.Move.x * Speed, _rigidbody2D.linearVelocity.y);
+        _rigidbody2D.linearVelocity = newVelocity;
     }
 
     void CheckGroundCollision()

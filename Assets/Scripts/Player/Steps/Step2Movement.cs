@@ -29,7 +29,7 @@ namespace Steps
             {
                 moveVector = moveVector.normalized;
             }
-            _rigidbody2D.velocity = moveVector * speed;
+            _rigidbody2D.linearVelocity = moveVector * speed;
         }
 
         private void GetInput()

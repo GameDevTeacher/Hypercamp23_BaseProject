@@ -81,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
 		}
 
 		// Movement
-		_rigidbody2D.velocity = new Vector2(newVelocity.x, _rigidbody2D.velocity.y);
+		_rigidbody2D.linearVelocity = new Vector2(newVelocity.x, _rigidbody2D.linearVelocity.y);
 	}
 
 	public bool IsGrounded()
@@ -97,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
 		if (!hit.transform.CompareTag("Enemy")) return;
 
 		Destroy(hit.transform.gameObject);
-		_rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, JumpSpeed);
+		_rigidbody2D.linearVelocity = new Vector2(_rigidbody2D.linearVelocity.x, JumpSpeed);
 	}
 
 	private void UpdateHealth(Collider2D collision)
@@ -153,12 +153,12 @@ public class PlayerMovement : MonoBehaviour
 		CoyoteJumpBuffer();
 	    if (coyoteTimeCounter > 0 && jumpBufferCounter > 0)
 	    {
-	        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, JumpSpeed);
+	        _rigidbody2D.linearVelocity = new Vector2(_rigidbody2D.linearVelocity.x, JumpSpeed);
 	        jumpBufferCounter = 0f;
 	    }
-	    if (_input.Jumped && _rigidbody2D.velocity.y > 0f)
+	    if (_input.Jumped && _rigidbody2D.linearVelocity.y > 0f)
 	    {
-	        _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _rigidbody2D.velocity.y * 0.5f);
+	        _rigidbody2D.linearVelocity = new Vector2(_rigidbody2D.linearVelocity.x, _rigidbody2D.linearVelocity.y * 0.5f);
 	        coyoteTimeCounter = 0f;
 	    }
 	}

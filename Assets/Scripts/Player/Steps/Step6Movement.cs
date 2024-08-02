@@ -38,12 +38,12 @@ namespace Steps
             // Better Jump
             if (isGrounded && _input.Jump)
             {
-                _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpSpeed);
+                _rigidbody2D.linearVelocity = new Vector2(_rigidbody2D.linearVelocity.x, jumpSpeed);
             }
 
-            if (_input.Jumped && _rigidbody2D.velocity.y > 0f)
+            if (_input.Jumped && _rigidbody2D.linearVelocity.y > 0f)
             {
-                _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, _rigidbody2D.velocity.y * 0.5f);
+                _rigidbody2D.linearVelocity = new Vector2(_rigidbody2D.linearVelocity.x, _rigidbody2D.linearVelocity.y * 0.5f);
             }
         }
 
@@ -60,7 +60,7 @@ namespace Steps
             }
 
             // Movement
-            _rigidbody2D.velocity = new Vector2(newVelocity.x, _rigidbody2D.velocity.y);
+            _rigidbody2D.linearVelocity = new Vector2(newVelocity.x, _rigidbody2D.linearVelocity.y);
         }
 
         private void Attack()
@@ -71,7 +71,7 @@ namespace Steps
             if (!hit.transform.CompareTag("Enemy")) return;
             
             Destroy(hit.transform.gameObject);
-            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpSpeed);
+            _rigidbody2D.linearVelocity = new Vector2(_rigidbody2D.linearVelocity.x, jumpSpeed);
         }
     }
 }

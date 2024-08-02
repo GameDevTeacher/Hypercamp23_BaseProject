@@ -19,7 +19,7 @@ public class EnemyBounceMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _rigidbody2D.velocity = new Vector2(transform.localScale.x * moveSpeed, 0f);
+        _rigidbody2D.linearVelocity = new Vector2(transform.localScale.x * moveSpeed, 0f);
     }
 
     private void LateUpdate()

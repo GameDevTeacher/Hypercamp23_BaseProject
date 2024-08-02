@@ -33,13 +33,13 @@ namespace Steps
             // Are we on ground?
             isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 0.6f, whatIsGround);
 
-            if (_rigidbody2D.velocity.y < 0)
+            if (_rigidbody2D.linearVelocity.y < 0)
             {
-                _rigidbody2D.velocity += Vector2.up * (_gravityY * (fallMultiplier - 1) * Time.deltaTime);
+                _rigidbody2D.linearVelocity += Vector2.up * (_gravityY * (fallMultiplier - 1) * Time.deltaTime);
             }
-            else if (_rigidbody2D.velocity.y > 0 && !_input.Jumping)
+            else if (_rigidbody2D.linearVelocity.y > 0 && !_input.Jumping)
             {
-                _rigidbody2D.velocity += Vector2.up * (_gravityY * (lowJumpMultiplier - 1) * Time.deltaTime);
+                _rigidbody2D.linearVelocity += Vector2.up * (_gravityY * (lowJumpMultiplier - 1) * Time.deltaTime);
             }
 
             if (!isGrounded) return;
@@ -47,7 +47,7 @@ namespace Steps
             // Jump
             if (_input.Jump)
             {
-                _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpSpeed);
+                _rigidbody2D.linearVelocity = new Vector2(_rigidbody2D.linearVelocity.x, jumpSpeed);
             }
             
           
@@ -57,7 +57,7 @@ namespace Steps
         private void FixedUpdate()
         {
             // Movement
-            _rigidbody2D.velocity = new Vector2(_input.Move .x * moveSpeed, _rigidbody2D.velocity.y);
+            _rigidbody2D.linearVelocity = new Vector2(_input.Move .x * moveSpeed, _rigidbody2D.linearVelocity.y);
         }
 
         private void Attack()
@@ -68,7 +68,7 @@ namespace Steps
             if (!hit.transform.CompareTag("Enemy")) return;
             
             Destroy(hit.transform.gameObject);
-            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, jumpSpeed);
+            _rigidbody2D.linearVelocity = new Vector2(_rigidbody2D.linearVelocity.x, jumpSpeed);
         }
     }
 }
